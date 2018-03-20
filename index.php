@@ -10,8 +10,8 @@
    $dbuser = getenv("dbuser");
    $dbpassword = getenv("dbpassword");
   
-   echo "Host: {$POSTGRESQL_SERVICE_HOST"} ";
-   echo "Port: {$POSTGRESQL_SERVICE_PORT"} ";
+   echo "Host: {$POSTGRESQL_SERVICE_HOST} ";
+   echo "Port: {$POSTGRESQL_SERVICE_PORT} ";
    echo "DB Name: {$dbname} ";
    echo "User: {$dbuser} ";
    echo "Password: {$dbpassword} ";
