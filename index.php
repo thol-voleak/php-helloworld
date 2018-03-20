@@ -9,12 +9,14 @@
    $dbname = getenv("dbname");
    $dbuser = getenv("dbuser");
    $dbpassword = getenv("dbpassword");
-  
+   $phpdb = getenv("PHP-DB_SERVICE_HOST");
    echo "Host: {$POSTGRESQL_SERVICE_HOST}, ";
    echo "Port: {$POSTGRESQL_SERVICE_PORT}, ";
    echo "DB Name: {$dbname}, ";
    echo "User: {$dbuser}, ";
    echo "Password: {$dbpassword} ";
+  
+  echo "xxxx: {$phpdb} ";
   ?> 
  </body>
 </html>
