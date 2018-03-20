@@ -17,6 +17,7 @@
    echo "Password: {$dbpassword} ";
   
   echo "xxxx: {$phpdb} ";
+  echo gethostname();
   ?> 
  </body>
 </html>
