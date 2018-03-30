@@ -4,7 +4,9 @@
  </head>
  <body>
  <?php 
-   $POSTGRESQL_SERVICE_HOST = getenv("POSTGRESQL_SERVICE_HOST");
+   $host = gethostname();
+   echo "Hello from {$host}"
+   /*$POSTGRESQL_SERVICE_HOST = getenv("POSTGRESQL_SERVICE_HOST");
    $POSTGRESQL_SERVICE_PORT = getenv("POSTGRESQL_SERVICE_PORT");
    $dbname = getenv("dbname");
    $dbuser = getenv("dbuser");
@@ -15,9 +17,9 @@
    echo "DB Name: {$dbname}, ";
    echo "User: {$dbuser}, ";
    echo "Password: {$dbpassword} ";
+   */
   
-  echo "xxxx: {$phpdb} ";
-  echo gethostname();
+  
   ?> 
  </body>
 </html>
