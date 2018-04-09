@@ -5,7 +5,7 @@
  <body>
  <?php 
    $host = gethostname();
-   echo "Hello from green server host: {$host}"
+   echo "Hello from blue server host: {$host}"
    /*$POSTGRESQL_SERVICE_HOST = getenv("POSTGRESQL_SERVICE_HOST");
    $POSTGRESQL_SERVICE_PORT = getenv("POSTGRESQL_SERVICE_PORT");
    $dbname = getenv("dbname");
