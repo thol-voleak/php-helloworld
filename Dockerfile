@@ -1,4 +1,2 @@
-FROM php:7.0-cli
+FROM php:7.0-apache
 COPY . /var/www/html
-WORKDIR /var/www/html
-CMD [ "php", "./index.php" ]
