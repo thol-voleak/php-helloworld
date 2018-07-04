@@ -6,7 +6,7 @@
  <?php 
    $host = gethostname();
    echo "hello world form server host: {$host} ";
-   for ($x = 0; $x <= 100; $x++) {
+   for ($x = 0; $x <= 10000000; $x++) {
     echo "The number is: $x <br>";
    } 
    /*$POSTGRESQL_SERVICE_HOST = getenv("POSTGRESQL_SERVICE_HOST");
