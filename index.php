@@ -5,7 +5,7 @@
  <body>
  <?php 
    $host = gethostname();
-   echo "hello world form server host: {$host} "
+   echo "hello world form server host: {$host} ";
    for ($x = 0; $x <= 100; $x++) {
     echo "The number is: $x <br>";
    } 
