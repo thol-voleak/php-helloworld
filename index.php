@@ -6,7 +6,7 @@
  <?php
  
    $host = gethostname();
-   echo "1";
+   echo "fuck you a kmav";
    echo "hello world form server host: {$host} ";
    $counter = 0;
    for ($x = 0; $x <= 5000; $x++) {
