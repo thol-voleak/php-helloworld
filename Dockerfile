@@ -3,5 +3,5 @@ MAINTAINER Thol-Voleak <thol.voleak@gmail.com>
 ENV TZ=Asia/Phnom_Penh
 LABEL release-date="@timestamp@"
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
-EXPOSE 80
+EXPOSE 8080
 COPY . /var/www/html
