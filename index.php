@@ -7,7 +7,7 @@
  
    $host = gethostname();
    echo "1.hello world form server host: {$host} ";
-   sleep(300)
+   //sleep(300)
    echo "2.hello world form server host: {$host} ";
    
   /*
