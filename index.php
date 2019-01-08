@@ -6,13 +6,16 @@
  <?php
  
    $host = gethostname();
-   echo "fuck you a kmav";
-   echo "hello world form server host: {$host} ";
+   echo "1.hello world form server host: {$host} ";
+   sleep(300)
+   echo "2.hello world form server host: {$host} ";
+   
+  /*
    $counter = 0;
    for ($x = 0; $x <= 5000; $x++) {
      $counter+=$x/1;
     //echo "The number is: $x <br>";
-   }
+   }*/
    /*$POSTGRESQL_SERVICE_HOST = getenv("POSTGRESQL_SERVICE_HOST");
    $POSTGRESQL_SERVICE_PORT = getenv("POSTGRESQL_SERVICE_PORT");
    $dbname = getenv("dbname");
